@@ -24,7 +24,7 @@ class MainWindow(CTk):
        self.send_button = CTkButton(self, text='>', width=50, height=40, command=self.send_message)
        self.send_button.place(x=0, y=0)
 
-       self.username = 'Artem'
+       self.username = 'Надія'
        try:
            self.sock = socket(AF_INET, SOCK_STREAM)
            self.sock.connect(('localhost', 8080))
